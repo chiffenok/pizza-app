@@ -1,0 +1,6 @@
+{
+    "env": {
+        "JWT_KEY": "secret",
+        "MONGO_URI": "mongodb+srv://u_love-pizza:ann31374@cluster0.gbr14.mongodb.net/love-pizza?retryWrites=true&w=majority"
+    }
+}

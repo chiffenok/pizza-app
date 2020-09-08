@@ -1,0 +1,23 @@
+#nav {
+  margin-bottom: 40px;
+}
+
+.btn {
+  margin-right: 10px;
+  background: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  color: #2c3e50;
+}
+
+.navbar-dark .navbar-toggler {
+  background: rgba(0, 0, 0, 0.15);
+}

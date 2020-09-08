@@ -1,0 +1,14 @@
+<section class="vote">
+    <h1>Vote for your favourite pizza</h1>
+    <br />
+    <button
+        type="button"
+        class="btn btn-outline-primary"
+        v-bind:key="pizza._id"
+        v-for="pizza in pizzas"
+        @click="onVote(pizza)"
+    >
+        I love it! - {{pizza.name}}
+        <span class="badge badge-secondary">{{pizza.likesCount}} likes</span>
+    </button>
+</section>

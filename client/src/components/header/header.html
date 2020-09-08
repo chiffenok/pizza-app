@@ -1,0 +1,14 @@
+<header>
+  <h1>We love pizza! Do you?</h1>
+  <h2 v-if="!auth">Sign up and tell us!</h2>
+  <h2 v-if="auth">You're ready to vote!</h2>
+  <b-button v-if="!auth" class="my-2 my-sm-0" to="login">
+    Login
+  </b-button>
+  <b-button v-if="!auth" class="my-2 my-sm-0" to="signup">
+    Signup
+  </b-button>
+  <b-button v-if="auth" class="my-2 my-sm-0" to="vote">
+    Vote
+  </b-button>
+</header>
